@@ -3,6 +3,7 @@ import {useEffect, useState} from 'react';
 import Stage1 from "./components/flow/Stage1";
 import Stage2 from "./components/flow/Stage2";
 import Stage3 from "./components/flow/Stage3";
+import End from "./components/flow/End";
 
 
 function App() {
@@ -33,13 +34,19 @@ function App() {
     const handleNext = () => {
         setCurrentStage((currentStage+1)%3)
     }
+    const handleComplete = () => {
+        setCurrentStage(-1)
+    }
+
     let currentStageComponent;
     if (currentStage === 0) {
         currentStageComponent = <Stage1 onNext={handleNext} />;
     } else if (currentStage === 1) {
         currentStageComponent = <Stage2 onNext={handleNext} />;
     } else if (currentStage === 2) {
-        currentStageComponent = <Stage3 onNext={handleNext} />;
+        currentStageComponent = <Stage3 onNext={handleNext} onComplete={handleComplete} />;
+    } else {
+        currentStageComponent = <End onNext={handleNext} />;
     }
 
 
