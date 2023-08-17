@@ -28,11 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <div className='card'>
-        <p>{cards[currentIndex].content}</p>
-      </div>
-    </div>
+      <div className="App">  <div className='slideshow'>    <div className='card'>      <p>{cards[currentIndex].content}</p>    </div>  </div></div>
   );
 }
 
