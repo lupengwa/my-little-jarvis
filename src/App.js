@@ -1,5 +1,5 @@
 import './App.css';
-import {Fragment, useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import Stage1 from "./components/flow/Stage1";
 import Stage2 from "./components/flow/Stage2";
 import Stage3 from "./components/flow/Stage3";
@@ -40,7 +40,12 @@ const generateShuffledNumbers = () => {
 
     return nums
 };
-const numbers = generateShuffledNumbers();
+
+// let numbers = generateShuffledNumbers();
+// console.log(numbers)
+const numbers = [35,90,48,38,114,122,70,102,23,36,42,139,141,87,1,20,115,62,128,94,117,133,17,52,91,46,89,71,26,41,55,108,32,83,39,30,127,84,77,81,21,76,25,24,110,3,93,116,64,123,58,107,85,120,2,129,37,16,136,27,104,99,8,13,29,112,11,6,66,101,9,67,95,96,135,33,63,45,78,31,28,79,18,111,44,144,56,61,118,125,49,12,100,54,5,4,98,130,74,82,138,72,88,97,15,43,113,86,50,121,57,7,131,132,14,69,65,124,19,80,137,22,105,59,73,92,53,47,106,10,143,134,51,126,75,34,142,40,140,109,103,68,60,119]
+
+
 
 function App() {
 
