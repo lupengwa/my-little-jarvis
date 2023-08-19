@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Stage3 = ({ onNext, onComplete }) => {
+const End = ({ onNext }) => {
     return (
         <div>
             <h1>Congratulations!</h1>
@@ -10,4 +10,4 @@ const Stage3 = ({ onNext, onComplete }) => {
     );
 };
 
-export default Stage3;
+export default End;
