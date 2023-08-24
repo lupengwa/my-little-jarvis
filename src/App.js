@@ -17,7 +17,7 @@ const cards = [
     },
     {
         title: 'Card 3',
-        content: 'When that second comes, Stay there physically, but get out mentally to rethink.'
+        content: 'Feedback:but I don’t think his depth warrants him being the Golang subject matter expert.'
     },
 ];
 
