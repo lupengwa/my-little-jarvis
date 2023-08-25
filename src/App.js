@@ -5,6 +5,7 @@ import Stage2 from "./components/flow/Stage2";
 import Stage3 from "./components/flow/Stage3";
 import End from "./components/flow/End";
 import RandNum from "./components/index/Ranindex";
+import ProgressBar from "./components/progress/ProgressBar";
 
 const cards = [
     {
@@ -104,11 +105,17 @@ function App() {
             <div>
                 {currentStageComponent}
             </div>
-
             <div>
-                <h1>Round: {round}  </h1> <p> Remain: {numbers.length-numIdx}</p>
-                <RandNum number={ numbers[numIdx] } onNextRandom={ handleNextRandom }/>
+                <ProgressBar name="Job Seeking" progress={2} />
+                <ProgressBar name="Coding" progress={0} />
+                <ProgressBar name="System Design" progress={0} />
+                <ProgressBar name="Leadership" progress={0} />
             </div>
+
+            {/*<div>*/}
+            {/*    <h1>Round: {round}  </h1> <p> Remain: {numbers.length-numIdx}</p>*/}
+            {/*    <RandNum number={ numbers[numIdx] } onNextRandom={ handleNextRandom }/>*/}
+            {/*</div>*/}
         </div>
     );
 }
