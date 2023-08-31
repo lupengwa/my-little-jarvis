@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-little-jarvis/static/css/main.19af804a.css",
-    "main.js": "/my-little-jarvis/static/js/main.c83eef4e.js",
+    "main.js": "/my-little-jarvis/static/js/main.f8dbfd72.js",
     "static/js/787.99180dd5.chunk.js": "/my-little-jarvis/static/js/787.99180dd5.chunk.js",
     "index.html": "/my-little-jarvis/index.html",
     "main.19af804a.css.map": "/my-little-jarvis/static/css/main.19af804a.css.map",
-    "main.c83eef4e.js.map": "/my-little-jarvis/static/js/main.c83eef4e.js.map",
+    "main.f8dbfd72.js.map": "/my-little-jarvis/static/js/main.f8dbfd72.js.map",
     "787.99180dd5.chunk.js.map": "/my-little-jarvis/static/js/787.99180dd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19af804a.css",
-    "static/js/main.c83eef4e.js"
+    "static/js/main.f8dbfd72.js"
   ]
 }
